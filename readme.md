@@ -15,6 +15,19 @@ En este repositorio se alojará el código de los programas que realicemos en cl
      - *stdio:* Es la librería estándar del lenguaje, en esta librería se define la función printf que se utiliza para enviar mensajes por consola.
    - *Compilar y ejecutar*: 
      Para compilar el código se necesitan ejecutar la siguiente instrucción:
-     - ``` mkdir build ```
-     - ``` gcc intro/main.c -o build/intro.o ```
-     - ```  build/intro.o ```
+     ``` bash 
+     mkdir build 
+     gcc intro/main.c -o build/intro.o 
+     build/intro.o ```
+
+2. **Condicional**
+   - *Descripción:* Introducción a la estructura de control condicional if. Programa para determinar si un usuario es mayor de edad.
+   - *Dependencias:* Las dependencias que utiliza este código son:
+     - *stdio:* Es la librería estándar del lenguaje. Define la función printf, utilizada para enviar mensajes por consola.
+   - *Compilar y ejecutar*: 
+     Para compilar el código, se deben ejecutar las siguientes instrucciones:
+     ```bash
+     mkdir build
+     gcc condicional/main.c -o build/condicional.o
+     build/condicional.o
+     ```
