@@ -15,5 +15,6 @@ En este repositorio se alojará el código de los programas que realicemos en cl
      - *stdio:* Es la librería estándar del lenguaje, en esta librería se define la función printf que se utiliza para enviar mensajes por consola.
    - *Compilar y ejecutar*: 
      Para compilar el código se necesitan ejecutar la siguiente instrucción:
+     - ``` mkdir build ```
      - ``` gcc intro/main.c -o build/intro.o ```
      - ```  build/intro.o ```
